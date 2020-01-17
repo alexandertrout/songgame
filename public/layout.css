@@ -1,0 +1,72 @@
+body {
+  background-color: grey;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  margin: 100px 150px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding: 40px;
+}
+h3 {
+  text-align: center;
+  padding: 30px;
+}
+
+.gridMe {
+  display: -ms-grid;
+  display: grid;
+  margin: 70px 150px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 100px;
+}
+
+.box {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a {
+  padding: 0px;
+  text-decoration: none;
+  text-align: center;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.b {
+  text-align: center;
+  margin: 20px;
+  background-color: lightgrey;
+  border-radius: 20px;
+}
+
+.c {
+  padding: 0px;
+  margin: 10px;
+}
+
+form {
+  padding: 0px;
+}
+
+label {
+  margin: 8px 0px;
+}
+
+input {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 7px 0px;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}

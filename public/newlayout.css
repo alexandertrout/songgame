@@ -1,0 +1,243 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.topBar {
+  background-image: url("/images/bar.png");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10px;
+  width: auto;
+}
+.midBar {
+  height: 30px;
+  width: auto;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  border-bottom: 1px solid rgb(220, 218, 218);
+}
+
+.midBarLeft {
+  text-align: left;
+  justify-content: left;
+  padding: 0px 37px;
+}
+
+.midBarRight {
+  text-align: right;
+  padding: 0px 37px;
+}
+
+/* ---------------------------------- */
+
+.container {
+  margin: 0vw 10vw;
+  padding: 0vw;
+  background-color: white;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-column: 1fr 5fr 2fr;
+}
+
+.a {
+  grid-column: 1/2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.5vw;
+  align-content: center;
+  justify-items: center;
+  padding: 0.5vw;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: -1px 1px 5px -1px rgba(0, 0, 0, 0.75);
+}
+/* ________________________________________________ */
+.b {
+  grid-column: 2/5;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: center;
+  justify-items: left;
+  padding: 0.5vw;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: left;
+  padding: 0vw 2vw;
+  align-items: center;
+  text-decoration: none;
+  background-color: rgb(242, 242, 242);
+  height: 3vw;
+  width: 50vw;
+  border-radius: 20px;
+}
+
+.search {
+  font-family: "Times New Roman", Times, serif;
+  color: gray;
+  display: flex;
+  padding: 0.5vw;
+}
+
+/* _____________________________________________ */
+.c {
+  grid-column: 5/8;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1.5vw;
+  align-content: center;
+  justify-items: center;
+  padding: 0.5vw;
+}
+
+.menuButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: black;
+  height: 3vw;
+  width: 6vw;
+  /* border-radius: 2px;
+  box-shadow: -1px 1px 5px -1px rgba(0, 0, 0, 0.75); */
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font: 0.5vw;
+}
+
+/* ------------------------------------------------- */
+
+.l {
+  height: 2200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  color: black;
+}
+
+.topBanner {
+  background-image: linear-gradient(
+    45deg,
+    rgb(217, 232, 235),
+    rgb(161, 204, 219),
+    lightblue,
+    rgb(65, 160, 192),
+    rgb(52, 106, 207),
+    rgb(19, 19, 119)
+  );
+  background-size: 200%;
+  animation: bg-ani 20s infinite alternate;
+  display: grid;
+  columns: 1fr;
+  align-content: top;
+  justify-items: center;
+  padding: 0vw 25vw;
+}
+
+@keyframes bg-ani {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.mainHeaderText {
+  text-align: center;
+  color: white;
+  margin: 80px 0px 40px;
+  font-size: 120px;
+}
+
+.subText {
+  color: white;
+  padding: 30px 40px;
+}
+
+.Small {
+  margin: 0px 0px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.f {
+  padding: 80px 0px;
+  font-size: 50px;
+}
+
+input[type="submit"],
+[type="text"] {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 4px 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.Medium {
+  margin: 40px 0px;
+  padding: 30px 20px 10px;
+  font-size: 42px;
+}
+
+.gridMe {
+  margin: 0vw 3vw;
+  padding: 10vw 0vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3vw;
+}
+
+.x {
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  /* border-radius: 2px;
+  box-shadow: -1px 1px 5px -1px rgba(0, 0, 0, 0.75); */
+}
+
+.y {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+.z {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
