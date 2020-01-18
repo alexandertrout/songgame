@@ -2,12 +2,15 @@
   "name": "extracopy",
   "version": "1.0.0",
   "description": "",
-  "main": "api-Router.js",
+  "main": "index.html",
   "dependencies": {
     "axios": "^0.19.1",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
     "nodemon": "^2.0.2"
+  },
+  "engines": {
+    "node": "v12.12.0"
   },
   "devDependencies": {},
   "scripts": {
