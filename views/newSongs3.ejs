@@ -22,9 +22,8 @@
             <div class="f">
               <form action="/songs" method="get">
                 <label for="artist_name">Enter Artist Name: </label>
-                <br /><br />
                 <input type="text" name="artist_name" />
-                <input type="submit" value="OK" />
+                <button>OK</button>
                 <!-- will go to /songs?artist_name="(entered text)" -->
               </form>
             </div>
@@ -35,93 +34,81 @@
 
       <!-- ----------------------------------------------- -->
       <div class="gridMe">
-        <a href="/wrong" style="text-decoration: none;">
-          <div class="x">
-            <div class="y">
-              <%= returnObj.songsArray[returnObj.randNum] %>
-            </div>
-            <div class="z">
-              <img
-                src="<%= returnObj.artArray[returnObj.randNum] %>"
-                alt="Artwork"
-                style="width:6vw;height:6vw;"
-              />
-            </div>
+        <a class="x" href="/wrong" style="text-decoration: none;">
+          <div class="y">
+            <%= returnObj.songsArray[returnObj.randNum] %>
+          </div>
+          <div class="z">
+            <img
+              src="<%= returnObj.artArray[returnObj.randNum] %>"
+              alt="Artwork"
+              style="width:20vw;height:20vw;"
+            />
           </div>
         </a>
 
-        <a href="/wrong" style="text-decoration: none;">
-          <div class="x">
-            <div class="y">
-              <%= returnObj.songsArray[returnObj.randNum+1] %>
-            </div>
-            <div class="z">
-              <img
-                src="<%= returnObj.artArray[returnObj.randNum+1] %>"
-                alt="Artwork"
-                style="width:6vw;height:6vw;"
-              />
-            </div>
+        <a class="x" href="/wrong" style="text-decoration: none;">
+          <div class="y">
+            <%= returnObj.songsArray[returnObj.randNum+1] %>
+          </div>
+          <div class="z">
+            <img
+              src="<%= returnObj.artArray[returnObj.randNum+1] %>"
+              alt="Artwork"
+              style="width:20vw;height:20vw;"
+            />
           </div>
         </a>
 
-        <a href="/wrong" style="text-decoration: none;">
-          <div class="x">
-            <div class="y">
-              <%= returnObj.songsArray[returnObj.randNum+2] %>
-            </div>
-            <div class="z">
-              <img
-                src="<%= returnObj.artArray[returnObj.randNum+2] %>"
-                alt="Artwork"
-                style="width:6vw;height:6vw;"
-              />
-            </div>
+        <a class="x" href="/wrong" style="text-decoration: none;">
+          <div class="y">
+            <%= returnObj.songsArray[returnObj.randNum+2] %>
+          </div>
+          <div class="z">
+            <img
+              src="<%= returnObj.artArray[returnObj.randNum+2] %>"
+              alt="Artwork"
+              style="width:20vw;height:20vw;"
+            />
           </div>
         </a>
 
-        <a href="/correct" style="text-decoration: none;">
-          <div class="x">
-            <div class="y">
-              <%= returnObj.fakeSongs[returnObj.randNum2] %>
-            </div>
-            <div class="z">
-              <img
-                src="<%= returnObj.artArray[returnObj.randNum+2] %>"
-                alt="Artwork"
-                style="width:6vw;height:6vw;"
-              />
-            </div>
+        <a class="x" href="/correct" style="text-decoration: none;">
+          <div class="y">
+            <%= returnObj.fakeSongs[returnObj.randNum2] %>
+          </div>
+          <div class="z">
+            <img
+              src="<%= returnObj.artArray[returnObj.randNum+2] %>"
+              alt="Artwork"
+              style="width:20vw;height:20vw;"
+            />
           </div>
         </a>
 
-        <a href="/wrong" style="text-decoration: none;">
-          <div class="x">
-            <div class="y">
-              <%= returnObj.songsArray[returnObj.randNum+3] %>
-            </div>
-            <div class="z">
-              <img
-                src="<%= returnObj.artArray[returnObj.randNum+3] %>"
-                alt="Artwork"
-                style="width:6vw;height:6vw;"
-              />
-            </div>
+        <a class="x" href="/wrong" style="text-decoration: none;">
+          <div class="y">
+            <%= returnObj.songsArray[returnObj.randNum+3] %>
+          </div>
+          <div class="z">
+            <img
+              src="<%= returnObj.artArray[returnObj.randNum+3] %>"
+              alt="Artwork"
+              style="width:20vw;height:20vw;"
+            />
           </div>
         </a>
 
-        <a href="/wrong" style="text-decoration: none;">
-          <div class="x">
-            <div class="y">
-              <%= returnObj.songsArray[returnObj.randNum+4] %>
-            </div>
-            <div class="z">
-              <img
-                src="<%= returnObj.artArray[returnObj.randNum+4] %>"
-                alt="Artwork"
-                style="width:6vw;height:6vw;"
-              />
-            </div>
+        <a class="x" href="/wrong" style="text-decoration: none;">
+          <div class="y">
+            <%= returnObj.songsArray[returnObj.randNum+4] %>
+          </div>
+          <div class="z">
+            <img
+              src="<%= returnObj.artArray[returnObj.randNum+4] %>"
+              alt="Artwork"
+              style="width:20vw;height:20vw;"
+            />
           </div>
         </a>
       </div>
